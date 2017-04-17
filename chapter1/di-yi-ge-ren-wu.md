@@ -27,7 +27,7 @@ russell run "python dynamic_rnn.py"
 #查看运行日志
 russell logs <task_id>
 
-#注意：在logs
+#注意：logs指令后加 -t 可流式读取日志
 ```
 
 
