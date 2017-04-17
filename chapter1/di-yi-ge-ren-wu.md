@@ -5,25 +5,29 @@
 第一步：项目准备
 
 ```
+#clone项目代码
 git clone https://github.com/RussellCloud/tensorflow-examples.git
 
-
+#进入项目所在目录（这里我们进入第3章的代码目录）
 cd tensorflow-examples/3_NeuralNetworks
 
-
+#登录
 russell login
 
-
+#创建项目
 russell create tf-boy
 ```
 
 第二步：运行项目
 
 ```
+#运行启动指令
 russell run "python dynamic_rnn.py"
 
-
+#查看运行日志
 russell logs <task_id>
+
+#注意：在logs
 ```
 
 
