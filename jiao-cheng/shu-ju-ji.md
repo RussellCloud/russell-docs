@@ -28,10 +28,10 @@ $ russell output <run_id>
 * 数据集操作
 
 ```
-#数据集初始化
+#数据集初始化(在数据集所在目录下运行)
 russell data init <data_name>
 
-#数据集上传
+#数据集上传(在数据集所在目录下运行)
 russell data upload
 
 #查看数据集
