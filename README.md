@@ -19,9 +19,9 @@ Russell Cloud 是一款能够让个人或者企业快速试验、发布深度学
 
 ## 相关示例
 
-1. [https://zhuanlan.zhihu.com/p/26404237](https://zhuanlan.zhihu.com/p/26404237 "深度学习小实验1：使用RNN教AI学会吟诗作赋")
-2. [https://zhuanlan.zhihu.com/p/26433410](https://zhuanlan.zhihu.com/p/26433410 "深度学习小实验2：预测铁路客运量") 
-3. [https://zhuanlan.zhihu.com/p/26464696](https://zhuanlan.zhihu.com/p/26464696 "深度学习小实验3：AI作曲家")
+1. 深度学习小实验1：使用RNN教AI学会吟诗作赋：[https://zhuanlan.zhihu.com/p/26404237](https://zhuanlan.zhihu.com/p/26404237 "深度学习小实验1：使用RNN教AI学会吟诗作赋")
+2. 深度学习小实验2：预测铁路客运量：[https://zhuanlan.zhihu.com/p/26433410](https://zhuanlan.zhihu.com/p/26433410 "深度学习小实验2：预测铁路客运量") 
+3. 深度学习小实验3：AI作曲家：[https://zhuanlan.zhihu.com/p/26464696](https://zhuanlan.zhihu.com/p/26464696 "深度学习小实验3：AI作曲家")
 
 
 
