@@ -2,8 +2,6 @@
 
 Russell Cloud 是一款能够让个人或者企业快速试验、发布深度学习算法服务的Paas产品， 功能，你只需要关注最核心的深度学习算法与应用，我们帮你解决一切让你头疼的问题，比如系统架构、环境配置。
 
-
-
 ## 功能 {#_1}
 
 1. 计算云服务：本地提交云端深度学习计算任务（无需配置环境，适配所有主流深度学习框架）
@@ -19,6 +17,11 @@ Russell Cloud 是一款能够让个人或者企业快速试验、发布深度学
 编辑 标题：姓名 - 职业 - 公司（或学校）并在正文中 附上 相关经历说明  
 发送到[contact@russellcloud.cn‍](/contact@russellcloud.cn)
 
-  
+## 相关示例
+
+1. [https://zhuanlan.zhihu.com/p/26404237](https://zhuanlan.zhihu.com/p/26404237 "深度学习小实验1：使用RNN教AI学会吟诗作赋")
+2. [https://zhuanlan.zhihu.com/p/26433410](https://zhuanlan.zhihu.com/p/26433410 "深度学习小实验2：预测铁路客运量") 
+3. [https://zhuanlan.zhihu.com/p/26464696](https://zhuanlan.zhihu.com/p/26464696 "深度学习小实验3：AI作曲家")
+
 
 
