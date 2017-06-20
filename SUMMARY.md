@@ -19,5 +19,4 @@
     * init
     * upload
 * [联系我们](lian-xi-wo-men.md)
-* init
 
