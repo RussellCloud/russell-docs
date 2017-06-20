@@ -11,5 +11,13 @@
   * [示例项目](jiao-cheng/shi-li-xiang-mu/tai-tan-ni-ke-hao-cheng-ke-fen-xi.md)
     * [泰坦尼克号乘客分析](jiao-cheng/shi-li-xiang-mu/tai-tan-ni-ke-hao-cheng-ke-fen-xi.md)
 * [命令行](ming-ling-xing.md)
+  * create
+  * status
+  * info
+  * logs
+  * [data](ming-ling-xing/data.md)
+    * init
+    * upload
 * [联系我们](lian-xi-wo-men.md)
+* init
 

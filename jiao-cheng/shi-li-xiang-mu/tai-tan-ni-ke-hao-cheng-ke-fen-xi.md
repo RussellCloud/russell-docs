@@ -2,8 +2,6 @@
 
 这一小节中我们将会在Russell Cloud上 示范 kaggle 上面泰坦尼克号乘客死亡预测的例子 ，你可以在这个例子中学会如何创建 notebook 模式下的任务，数据集引用以及添加依赖等操作。
 
-
-
 第一步：项目准备
 
 ```
@@ -23,8 +21,6 @@ $ russell data upload
 # 上传成功后你将会获得数据集ID
 ```
 
-
-
 第二步：启动项目
 
 ```
@@ -37,8 +33,6 @@ $ echo "seaborn" >> russell_requirements.txt
 # 以jupyter模式启动，可能需要等待一小会，返回相应浏览器可访问的notebook链接
 $ russell run --mode jupyter --data <data_id>
 ```
-
-
 
 备注：jupyter模式下的任务不会自动关闭，使用stop命令主动结束，如下:
 
