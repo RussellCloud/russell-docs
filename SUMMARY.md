@@ -10,6 +10,7 @@
   * [环境配置](jiao-cheng/huan-jing-pei-zhi.md)
   * [示例项目](jiao-cheng/shi-li-xiang-mu/tai-tan-ni-ke-hao-cheng-ke-fen-xi.md)
     * [泰坦尼克号乘客分析](jiao-cheng/shi-li-xiang-mu/tai-tan-ni-ke-hao-cheng-ke-fen-xi.md)
+    * [style transfer（cli）](jiao-cheng/shi-li-xiang-mu/style-transfercli.md)
 * [命令行](ming-ling-xing.md)
   * create
   * status
