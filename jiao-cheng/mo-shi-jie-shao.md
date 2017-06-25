@@ -18,3 +18,21 @@ $ russell run --mode jupyter
 
 
 
+## 注意 {#_2}
+
+1. 在CLI模式下，如果command中包含python运行代码，建议加上 -u，以避免输出缓冲问题，如下：
+
+```
+$ russell run "python test.py"
+# 这种方式启动可能会导致日志无法同步输出（因为python解释器的log buffer）
+
+$ russell run "python -u test.py"
+# 加上 -u 可以避免这个问题 
+```
+
+
+
+
+
+
+
