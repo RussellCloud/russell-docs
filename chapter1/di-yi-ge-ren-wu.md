@@ -22,12 +22,10 @@ russell create tf-boy
 
 ```
 #运行启动指令
-russell run "python dynamic_rnn.py"
+russell run "python -u dynamic_rnn.py"
 
 #查看运行日志（按ctrl-c退出）
 russell logs <task_id>
-
-
 ```
 
 
