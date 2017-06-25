@@ -24,6 +24,9 @@ russell create tf-boy
 #运行启动指令
 russell run "python -u dynamic_rnn.py"
 
+#查看项目状态
+russell status <task_id>
+
 #查看运行日志（按ctrl-c退出）
 russell logs <task_id>
 ```
