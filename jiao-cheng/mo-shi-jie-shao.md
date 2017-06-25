@@ -16,7 +16,7 @@ $ russell run --mode jupyter
 # Serve模式（待补充）
 ```
 
-
+##  {#_2}
 
 ## 注意 {#_2}
 
@@ -27,12 +27,8 @@ $ russell run "python test.py"
 # 这种方式启动可能会导致日志无法同步输出（因为python解释器的log buffer）
 
 $ russell run "python -u test.py"
-# 加上 -u 可以避免这个问题 
+# 加上 -u 可以避免这个问题
 ```
-
-
-
-
 
 
 
