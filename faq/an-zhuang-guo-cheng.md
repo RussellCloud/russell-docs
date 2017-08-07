@@ -18,7 +18,9 @@ sudo pip install -U russell-cli
 sudo pip install -U russell-cli --ignore-installed
 ```
 
-1. 依赖问题
+
+
+2. 依赖问题
 
 在安装过程中可能会出现依赖库安装报错或者在运行过程中遇到“\*\*\* not installed”
 
