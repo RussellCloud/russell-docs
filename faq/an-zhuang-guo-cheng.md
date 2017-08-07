@@ -18,9 +18,7 @@ sudo pip install -U russell-cli
 sudo pip install -U russell-cli --ignore-installed
 ```
 
-
-
-2. 依赖问题
+1. 依赖问题
 
 在安装过程中可能会出现依赖库安装报错或者在运行过程中遇到“\*\*\* not installed”
 
@@ -30,8 +28,6 @@ sudo pip install -U russell-cli --ignore-installed
 sudo pip install -U ***
 ```
 
-
-
 如果在linux系统中遇到“Python.h: No such file or directory”类似的问题
 
 * 直接安装python-dev包即可：
@@ -40,14 +36,12 @@ sudo pip install -U ***
 sudo apt-get install python-dev
 ```
 
-
-
 ---
 
 # 遇到其他的问题？
 
 * 请您先仔细check FAQs，尝试可能的解决方案；
-* 如果仍未解决，您可以在GitBook的讨论页面（[https://www.gitbook.com/book/w821881341/russellcloud/discussions](https://www.gitbook.com/book/w821881341/russellcloud/discussions "点击这里跳转")）寻找是否已经有类似的问题，并查看是否已经解决；
+* 如果仍未解决，您可以在GitBook的讨论页面（[点击这里跳转](https://www.gitbook.com/book/w821881341/russellcloud/discussions)）寻找是否已经有类似的问题，并查看是否已经解决；
 * 如果没有找到类似的问题，您可以在该页面创建一个话题，描述你所遇到的问题，我们会尽快帮助您解决。
 
 
