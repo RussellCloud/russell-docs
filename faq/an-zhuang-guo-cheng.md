@@ -1,6 +1,6 @@
 # 安装过程可能遇到的问题
 
-1. 权限问题
+### 权限问题
 
 在pip install 过程中直接报出 “Permission denied” 或者 “Access is denied” 之类的错误
 
@@ -20,7 +20,7 @@ sudo pip install -U russell-cli --ignore-installed
 
 
 
-2. 依赖问题
+### 依赖问题
 
 在安装过程中可能会出现依赖库安装报错或者在运行过程中遇到“\*\*\* not installed”
 
