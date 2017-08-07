@@ -21,4 +21,9 @@
     * init
     * upload
 * [联系我们](lian-xi-wo-men.md)
+* [FAQs](faq.md)
+  * [安装过程](faq/an-zhuang-guo-cheng.md)
+  * 注册登录
+  * 环境配置
+  * 运行任务
 
