@@ -16,10 +16,6 @@ $ russell run --mode jupyter
 # Serve模式（待补充）
 ```
 
-## 示例 {#_2}
-
-
-
 
 
 ## 注意 {#_2}
