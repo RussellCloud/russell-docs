@@ -2,11 +2,13 @@
 
 前面的示例中我们默认使用的是TensorFlow框架，事实上，RussellCloud支持目前几乎所有的主流深度学习框架，在 run 命令后加上 ” –env ” 指定对应的框架环境:
 
-如果需要安装额外的python库，可以在项目根目录下新建russell\_requirements.txt文件，内部格式参考python项目中常见requirements文件的编写方式。
-
 ```
 russell run --env <env_name> <command>
 ```
+
+如果需要安装额外的python库，可以在项目根目录下新建russell\_requirements.txt文件（内部格式参考python项目中常见requirements文件的编写方式），项目运行前会在环境中自动安装需要的库，但建议不要在这个过程中安装过多的库，有可能会造成安装超时，在jupyter任务中可以考虑启动notebook后再进行安装。
+
+
 
 | 下面是目前支持的框架列表： |
 | :--- |
