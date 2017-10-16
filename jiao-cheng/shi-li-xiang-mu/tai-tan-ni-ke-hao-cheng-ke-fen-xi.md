@@ -8,7 +8,7 @@
 # clone代码
 $ git clone https://github.com/RussellCloud/kaggle_titanic.git
 
-# 数据集准备（下面步骤可跳过，直接使用数据集ID：e1d051d98f5d4ea0b769775bff03a750）
+# 数据集准备（下面步骤可跳过，直接使用数据集ID：b9cc2a3077454d8b80e37e1be521e265）
 # 打开数据集所在目录
 $ cd kaggle_titanic/data/
 
