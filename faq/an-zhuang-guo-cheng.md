@@ -40,6 +40,14 @@ sudo apt-get install python-dev
 
 ---
 
+### 路径问题
+
+pip安装成功后，键入`russell`显示找不到此命令，原因是安装路径未加入环境变量。
+
+OS X、Linux用户可使用文本编辑器打开`~/.bashrc`或者`~/.zshrc`，在最后加入一行：`export PATH=$PATH:{}`（{}内为可能的安装路径，如`/usr/local/bin`等）），然后`source ~/.bashrc`，将russell命令行工具所在路径加入环境变量即可。
+
+Windows用户设置【系统环境变量】具体步骤参考网上其他教程。
+
 # 遇到其他的问题？
 
 * 请您先仔细check FAQs，尝试可能的解决方案；
