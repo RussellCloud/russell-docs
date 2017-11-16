@@ -3,7 +3,7 @@
 * [介绍](README.md)
 * [快速开始](get-started.md)
   * [安装](get-started/install.md)
-  * [第一个任务](get-started/first-project.md)
+  * [第一个任务](get-started/first-task.md)
 * [项目](project.md)
   * [新建项目](project/create.md)
   * [Fork项目](project/fork.md)
