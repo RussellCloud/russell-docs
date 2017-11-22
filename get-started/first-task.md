@@ -61,6 +61,18 @@ russell logs <task_id>
 
 ![](/asserts/img/first_task_5.png)
 
+## 常见问题
+
+1. 执行 *run* 时输出 *“Error: Task is submitted failed. Please retry after a while”*
+
+解决方式：大部分情况下没有问题，过几秒重新 *run* 就行了，如果重复几次仍然出现问题，仍未解决可 [联系我们](/contact-us.md) 。
+
+
+### 遇到更多问题？
+
+
+
+
 
 
 
