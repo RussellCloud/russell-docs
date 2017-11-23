@@ -24,11 +24,11 @@
   * [名画风格学习](example/style-transfer.md)
   * [唐诗词生成](example/poetry-generator.md)
 * [命令行工具](cli.md)
-  * init
-  * run
-  * status
-  * info
-  * logs
+  * [init](cli/init.md)
+  * [run](cli/run.md)
+  * [status](cli/status.md)
+  * [info](cli/info.md)
+  * [logs](cli/logs.md)
   * [data](cli/data.md)
     * init
     * upload
