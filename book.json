@@ -39,7 +39,8 @@
         "sitemap-general@^0.1.1",
         "anchor-navigation-ex@0.1.8",
         "todo@^0.1.3",
-        "3-ba@^0.9.0"
+        "3-ba@^0.9.0",
+        "atoc"
     ],
     "pluginsConfig": {
         "theme-default": {
@@ -96,6 +97,10 @@
         },
         "sectionx": {
             "tag": "b"
+        },
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
         }
     }
 }
