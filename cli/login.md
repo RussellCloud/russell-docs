@@ -2,7 +2,7 @@
 登录RussellCloud服务器：在本机存储登录凭证。
 
 
-## 帮助
+## 查看帮助
 ```bash
 russell login --help
 ```
@@ -30,7 +30,7 @@ russell login
 |--username|False|RussellCloud用户名，若指定，必须包含--password项|
 |--password|False|RussellCloud密码|
 
-## 描述
+## 详情
 在使用russell-cli工具运行任何其他命令之前，必须首先登录。默认情况下，您会从打开的RussellCloud官网上获取登录所需要的token：从官网复制token并粘贴到命令行中，即可完成登录。
 
 例如：

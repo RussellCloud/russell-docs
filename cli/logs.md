@@ -1,31 +1,33 @@
-# russell info
+# russell logs
+查看任务的运行日志。
 
 ## 查看帮助
 ```bash
-russell info --help
+russell logs --help
 ```
 输出：
 ```
-Usage: russell info [OPTIONS] ID
+Usage: russell logs [OPTIONS] ID
 
-  Prints detailed info for the run
+  Print the logs of the run.
 
 Options:
-  --help  Show this message and exit.
+  -t, --tail  Stream the logs
+  --help      Show this message and exit.
 ```
 
 ## 命令
 ```bash
-russell info [OPTIONS] ID
+russell logs [OPTIONS] ID
 ```
 
 ## 选项
 
 |选项|默认值|描述|
 |---|---|---|
-||False||
-||False||
-||False||
+|ID||任务ID|
+|--url, -u||只打印URL|。；
+
 
 
 ## 遇到更多问题？

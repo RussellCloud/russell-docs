@@ -1,4 +1,4 @@
-# russell status
+# russell output
 russell-cli提供一组命令实现在终端内对数据集进行管理。
 
 ## 查看帮助 --help

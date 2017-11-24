@@ -40,7 +40,7 @@ russell run [OPTIONS] [COMMAND]
 |--m<message_str>||任务描述|
 |command||所运行的命令，任务入口|
 
-## 描述
+## 详情
 
 该命令将上传CLI所追踪的代码文件到RussellCloud服务器，然后执行你的命令。你可以通过[status](/cli/status.md)命令查看任务进度，通过[logs](/cli/logs.md)命令查看任务日志。
 

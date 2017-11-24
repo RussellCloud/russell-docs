@@ -43,7 +43,7 @@ russell init --name PROJECT_NAME
 两个可选项必须选择至少一个，同时选择两个则`--id`优先。
 
 
-## 描述
+## 详情
 该命令将使用所给参数初始化当前文件夹。请确保所输入的id或者name是在RussellCloud上已经存在的，并且该id所对应的项目是当前登录用户的，或者您拥有一个名叫name的项目。
 
 该命令将在当前文件夹下创建一个`.russellexpt`文件，和一个`.russellignore`文件。您可以编辑`.russellignore`文件，当您运行任务时，这些文件将不会被上传。
