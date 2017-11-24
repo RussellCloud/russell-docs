@@ -14,15 +14,23 @@
 
 ## 新建项目
 
+
 ### 网页入口
+
+<br />
 
 * （登录后）导航栏右上角「+」号
 
 ![](/asserts/img/create_project_1.png)
 
+<br />
+
 * （登录后）个人主页-项目栏—列表右上角
 
 ![](/asserts/img/create_project_2.png)
+
+<br />
+<br />
 
 ### 填写信息
 
@@ -36,6 +44,7 @@
 
 ![](/asserts/img/create_project_3.png)
 
+<br />
 
 ### 补充 README 描述
 如果你使用过GitHub 的话应该知道 README.md 的用法，同样的，RussellCloud 支持自动加载 README，你只需要在项目目录下创建 README.md 并按照 MarkDown 规范（与 github 一致）写入内容，在你下一次 run 时，README文件就会自动上传并在 [项目页-描述] 模块中加载。
@@ -54,7 +63,9 @@ russell run "ls"
 ```
 这时打开项目页，就能看到描述中已经加载最新的README内容
 
-<img height=500 width=500 src="../asserts/img/create_project_4.gif"/>
+<br />
+<img width=80% src="../asserts/img/create_project_4.gif"/>
+<br />
 
 > (原文：https://help.github.com/articles/about-readmes/)
 >

@@ -12,7 +12,7 @@
 
 * [注册 RussellCloud 账号](http://russellcloud.com/#regist)
 * [安装 *russell-cli* 终端工具](/get-started/install.md)
-* [通过 *russell-cli* 登录账号](http://russellcloud.com/#login)
+* [通过 *russell-cli* 登录账号](/login-cli.md)
 
 ---
 
