@@ -13,7 +13,7 @@ $ git clone https://github.com/RussellCloud/kaggle_titanic.git
 $ cd kaggle_titanic/data/
 
 # 数据集初始化
-$ russell data init titanic_data
+$ russell data init --name titanic_data
 
 # 数据集上传
 $ russell data upload
@@ -29,6 +29,9 @@ $ cd code
 
 # 由于本项目需要使用seaborn库进行数据可视化，因此在项目下创建russell_requirements.txt
 $ echo "seaborn" >> russell_requirements.txt
+
+# 绑定远程项目
+$ russell init --name <project_name>
 
 # 以jupyter模式启动，可能需要等待一小会，返回相应浏览器可访问的notebook链接
 $ russell run --mode jupyter --data <data_id>
