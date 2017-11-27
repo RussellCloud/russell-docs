@@ -32,6 +32,8 @@
   * [data](cli/data.md)
     * init
     * upload
+    * status
+    * output
 * [联系我们](contact-us.md)
 * [FAQs](faq.md)
   * [安装过程](faq/install.md)

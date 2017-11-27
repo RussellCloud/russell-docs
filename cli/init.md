@@ -52,7 +52,7 @@ russell init --name PROJECT_NAME
 
 例如：
 1. 使用id
-```
+```bash
 russell init --id 50e216f7467546e4b8ea1167ce38a185
 ```
 输出：
@@ -61,7 +61,7 @@ Project "tinyflow" initialized in current directory
 ```
 
 2. 使用name
-```
+```bash
 russell init --name tinyflow
 ```
 输出：
