@@ -3,7 +3,7 @@ russell-cli提供一组命令实现在终端内对数据集进行管理。
 
 ## 查看帮助 --help
 
-您可通过键入`$ russell status --help`命令查看使用帮助。 
+您可通过键入`$ russell output --help`命令查看使用帮助。 
 
 ```
 Usage: russell status [OPTIONS] [ID]
@@ -18,22 +18,22 @@ Options:
 ## 选项
 
 ## 详情
-
-1. 查看任务状态
-执行命令：
 ```bash
-russell status 50e216f7467546e4b8ea1167ce38a185
+russell output e874c5b5fc5641429f5a8894b9587276
+```
+输出以下信息并打开浏览器，显示项目输出文件夹页面：
+```
+Opening output directory in your browser ...
 ```
 
-您可以看到类似这样的输出：
+或者您想手动打开浏览器：
+```bash
+russell output --url e874c5b5fc5641429f5a8894b9587276
 ```
-RUN ID                            CREATED         STATUS      DURATION(s)  NAME      INSTANCE      VERSION
---------------------------------  --------------  --------  -------------  --------  ----------  ---------
-50e216f7467546e4b8ea1167ce38a185  51 seconds ago  running               0  tinyflow  cpu                 1
+输出：
 ```
- 
-- DURATION 任务在云端实际运行的总时长，所谓“按秒计费”是依据这个标准的。任务在运行中，这里显示的DURATION将一直是0。
-
+http://dl.russellcloud.com/files/data/52a1cc19caf241b5802593f3dd705e07/?token=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJbVY0Y0NJNk1UVXhNVGM0TmpVeE9Td2lhV0YwSWpveE5URXhOREkyTlRFNWZRLmV5SnBaQ0k2SWpFek56SmpaV05tTXpVek9EUm1NVGhpWkRreE16Sm1NVFEzWmpGaVpXSXlJbjAuczI1ZTJ1Mk1Samt0cFQ5YTNuMjhkWXVKaXVtYWR2bHNBbEI0aUU0dFNnYzo=
+```
 
 ## 遇到更多问题？
 

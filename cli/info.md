@@ -1,4 +1,5 @@
 # russell info
+输出任务详细信息。
 
 ## 查看帮助
 ```bash
@@ -21,12 +22,24 @@ russell info [OPTIONS] ID
 
 ## 选项
 
-|选项|默认值|描述|
-|---|---|---|
-||False||
-||False||
-||False||
-
+## 详情
+示例：
+```bash
+russell info 5b5e9b106d754b74acbe87c8e9618265
+```
+输出：
+```
+-----------  --------------------------------
+Run ID       5b5e9b106d754b74acbe87c8e9618265
+Name         tinyflow
+Created      3 days ago
+Status       stopped
+Duration(s)  8
+Output ID    52a1cc19caf241b5802593f3dd705e07
+Instance     gpu
+Version      2
+-----------  --------------------------------
+```
 
 ## 遇到更多问题？
 
