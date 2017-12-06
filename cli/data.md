@@ -5,8 +5,8 @@
 |---|---|
 |russell data init|初始化一个数据集|
 |russell data upload|创建并上传一个新的数据集版本|
-|russell data status|列出所有的数据集|
-|russell data clone|克隆一个已存在的数据集|
+|russell data status|查看数据集上传状态|
+|russell data clone|下载一个已存在的数据集|
 |russell data delete|删除数据集|
 |russell data output|查看数据集内容|
 
