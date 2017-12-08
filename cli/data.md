@@ -72,7 +72,6 @@ russell data init --name DATASET_NAME
 ### 详情
 RussellCloud会管理您的实验数据集，在运行项目的时候您可以使用这些数据集。初始化命令会初始化当前目录，track所有的文件和子文件夹。需要确保初始化参数的id和name是已经在官网创建的数据集。
 
-如果数据集不存在，CLI会打开浏览器并跳转到创建数据集的页面。（v6.0.0以上版本支持）
 
 示例：
 ```bash
@@ -165,12 +164,6 @@ faecc90b11a5434394967f6cfa679ebb  2 minutes ago  valid    less than 1 MB  first-
 ```bash
 russell data output [OPTIONS] ID
 ```
-
-### 选项
-|选项|默认值|描述|
-|---|---|---|
-|--url, -u||只在终端打印URL，不打开浏览器|
-|ID||数据集ID|
 
 ## 遇到更多问题？
 

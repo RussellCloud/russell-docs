@@ -26,9 +26,7 @@ russell login
 
 |可选项|默认值|描述|
 |---|---|---|
-|--token|False|若指定该项，将不打开浏览器使用token登录。注意：仅v0.5.5以上版本支持。|
-|--username|False|RussellCloud用户名，若指定，必须包含--password项|
-|--password|False|RussellCloud密码|
+
 
 ## 详情
 在使用russell-cli工具运行任何其他命令之前，必须首先登录。默认情况下，您会从打开的RussellCloud官网上获取登录所需要的token：从官网复制token并粘贴到命令行中，即可完成登录。
@@ -67,7 +65,7 @@ Login Successful as RussellCloud
 
 
 ## 认证token¶
-RussellCloud使用JWT认证。您的token将会被存储到~/.russellconfig文件中。默认的token有效期为【X】天，在此之后您需要重新登录。
+RussellCloud使用JWT认证。您的token将会被存储到~/.russellconfig文件中。默认的token有效期为 1 天，在此之后您需要重新登录。
 
 ## 遇到更多问题？
 

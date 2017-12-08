@@ -33,11 +33,10 @@ russell run [OPTIONS] [COMMAND]
 |可选项|默认值|描述|
 |---|---|---|
 |--gpu/--cpu|cpu|如果指定，则在所指定的实例类型上运行任务|
-|--data <ID:mount>||ID指定挂载的数据集，mount指定挂载的目录。注：mount仅v0.5.5以上版本支持|
-|--mode[job&#124;jupyter&#124;serve]|job|指定任务的运行模式，默认行为是执行所指定的命令|
-|--no-open||输出jupyter模式的url，而不是直接打开浏览器。注：仅v0.5.5以上版本支持|
+|--data <ID:mount_name>||ID指定挂载的数据集，mount_name指定挂载目录名称。|
+|--mode[cli&#124;jupyter&#124;serve]|job|指定任务的运行模式，默认行为是执行所指定的命令|
 |--env[...]|keras:py3|指定项目任务的运行环境，[支持的环境列表](/project/task/environment.md)|
-|--m<message_str>||任务描述|
+|--m <message_str>||任务描述|
 |command||所运行的命令，任务入口|
 
 ## 详情
@@ -73,8 +72,8 @@ Russell对多种多样的深度学习框架使用标准的Docker镜像。如果�
 ### Jupyter notebook
 Russell支持在服务器端以Jupyter/iPython模式运行。
 
-### Serve
-Russell可以将模型发布为线上REST-api接口。仅v0.6.0以上版本支持。
+### Serve （测试中）
+Russell可以将模型发布为线上REST-api接口。
 
 
 ## 遇到更多问题？
