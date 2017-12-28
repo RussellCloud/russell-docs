@@ -137,9 +137,9 @@ To view logs enter:
 
 ---
 
-### Tensorboard
+### Tensorboard（beta）
 
-通过 `--tensorboard` 命令，你可以为 tensorflow 任务创建 Tensorboard。
+通过 `--tensorboard` 命令，你可以为 tensorflow 任务创建 Tensorboard，目前只支持 tensorflow 1.4+ 环境。
 
 ---
 
