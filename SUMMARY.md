@@ -1,28 +1,28 @@
 # Summary
 
-* 快速开始
+* [快速开始](get-started/install.md)
   * [安装](get-started/install.md)
   * [第一个任务](get-started/first-task.md)
-* 项目
+* [项目](project/create.md)
   * [新建项目](project/create.md)
   * [Fork项目](project/fork.md)
-  * 任务
+  * [任务](project/task/run.md)
     * [运行任务](project/task/run.md)
     * [任务模式](project/task/mode.md)
     * [环境配置](project/task/environment.md)
     * [终止任务](project/task/stop.md)
   * [版本管理](project/version-control.md)
   * [删除项目](project/delete.md)
-* 数据集
+* [数据集](dataset/create-and-upload.md)
   * [新建并上传数据集](dataset/create-and-upload.md)
   * [删除数据集](dataset/delete.md)
   * [挂载数据集](dataset/mount.md)
   * [输出数据集](dataset/output.md)
-* 经典例子
+* [经典例子](example/titanic-analytic.md)
   * [泰坦尼克号乘客分析](example/titanic-analytic.md)
   * [名画风格学习](example/style-transfer.md)
   * [唐诗词生成](example/poetry-generator.md)
-* 命令行工具
+* [命令行工具](cli/init.md)
   * [init](cli/init.md)
   * [run](cli/run.md)
   * [status](cli/status.md)
@@ -33,7 +33,7 @@
     * upload
     * status
     * output
-* FAQs
+* [FAQs](faq/install.md)
   * [安装过程](faq/install.md)
   * [注册登录](faq/regist-and-login.md)
   * [环境配置](faq/environment.md)
