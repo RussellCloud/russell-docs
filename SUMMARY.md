@@ -3,7 +3,7 @@
 * 快速开始
   * [安装](get-started/install.md)
   * [第一个任务](get-started/first-task.md)
-* [项目](project/create.md)
+* 项目
   * [新建项目](project/create.md)
   * [Fork项目](project/fork.md)
   * 任务
@@ -33,10 +33,10 @@
     * upload
     * status
     * output
-* [联系我们](contact-us.md)
 * FAQs
   * [安装过程](faq/install.md)
   * [注册登录](faq/regist-and-login.md)
   * [环境配置](faq/environment.md)
   * [任务运行](faq/run-task.md)
+* [联系我们](contact-us.md)
 
