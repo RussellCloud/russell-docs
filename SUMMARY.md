@@ -39,4 +39,6 @@
   * [环境配置](faq/environment.md)
   * [任务运行](faq/run-task.md)
 * [联系我们](contact-us.md)
+* [关于我们](about-us.md)
+
 

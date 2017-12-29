@@ -1,34 +1,21 @@
 
-## 欢迎来到 [RussellCloud](http://russellcloud.com/) 
+## 欢迎来到 [RussellCloud](http://russellcloud.com/) 文档
 
-我是 RussellCloud 的第一位开发者，我将在下面的内容中向大家介绍这款产品以及帮助大家顺利使用它，目前它主要能够帮助大家：一分钟内开始训练深度学习模型，按任务时间计费（精确到秒），支持深度学习常用的主流框架，提供常用的公开深度学习数据集，支持用户上传的个人数据集共享给他人使用。
+RussellCloud 是一款为提升深度学习算法开发、部署效率而打造的计算平台产品
 
-总的来说，你只需要专心于研究算法，我们帮你解决一切让你头疼的问题。（如果大家有其他的功能需要，请在[Russell论坛](http://forum.russellcloud.com/)跟我们交流讨论）
-
-## 为什么做这款产品？
-我曾经从事过机器学习相关的研发工作，后来虽然转向数据产品经理方向，但业余时间也会经常关注 kaggle 或者 github 上的比赛，每次看到有意思的项目因为环境配置之类的问题总是很难快速复现实验效果，又或者看到数据集想要 explore 一下就得下载一晚上，大部分情况下还没有完成这些准备工作就忘记这回事了。
-
-经过几次折腾之后我决定开发一套简易的流程框架来解决这些问题，当我做出来的时候，终于体验到 clone 下来直接就可以一条命令启动训练的快感，想起来以前学 ruby 的时候用的 heroku，前端部署也有 zeit ，既然工程领域前后端都有一键快速部署的工具，为什么深度学习就不行呢？
-
-我们希望通过一款产品不仅帮助研究者们提高实验效率，同样也能降低学习者的门槛，甚至在一定版本后能够让产品经理、运营人员也能通过它轻松地接触体验学术前沿的深度学习模型效果。
-
-## 为什么取名 Russell？
-Russell (常译作：罗素、拉塞尔)取名于20世纪一位伟大的数学家、哲学家--Bertrand Russell，著有《西方哲学史》《数学原理》等书籍，致力于哲学的大众化、普及化，而我们之所以发布这款产品则主要是为了降低AI门槛，让所有的计算机专业学生、工程师、产品经理甚至所有人都能轻松地训练模型，发现数据里的奇妙故事。（碰巧的是，《人工智能》的作者也叫 Russell ）
+- 帮助入门学习者快速构建训练自己的深度学习模型
+- 帮助研发人员快速部署并发布自己深度学习服务
 
 
+## 入门使用
+- 在使用前请先确认你已经注册账号，并按照注册后的 [快速开始](http://russellcloud.com/welcome) 引导安装客户端并登录，
+- 然后你可以通过 [第一个任务](http://docs.russellcloud.com/get-started/first-task.html) 创建自己的第一个项目并运行一个简单的任务（有日志，没有output），
+- 如果你在使用中遇到任何疑问在文档中没有找到答案，欢迎访问 [Russell论坛](http://forum.russellcloud.com/) 交流或通过邮件 contact@russellcloud.cn 联系我们
 
-好了，你可以通过 [快速开始](http://docs.russellcloud.com/get-started/first-task.html) 创建自己的第一个项目并运行一个任务，如果你在使用中遇到任何疑问在文档中没有找到答案，欢迎访问 [Russell论坛](http://forum.russellcloud.com/) 交流或通过邮件 contact@russellcloud.cn 联系我们
-
-
-
-## 申请内测 {#_3}
-
-编辑 标题：姓名 - 职业 - 公司（或学校）并在正文中 附上 相关经历说明  
-发送到 [contact@russellcloud.cn‍](/contact@russellcloud.cn)
 
 
 ## 相关示例
 
-1. 深度学习小实验1：使用RNN教AI学会吟诗作赋：[https://zhuanlan.zhihu.com/p/26404237](https://zhuanlan.zhihu.com/p/26404237 "深度学习小实验1：使用RNN教AI学会吟诗作赋")
-2. 深度学习小实验2：预测铁路客运量：[https://zhuanlan.zhihu.com/p/26433410](https://zhuanlan.zhihu.com/p/26433410 "深度学习小实验2：预测铁路客运量") 
-3. 深度学习小实验3：AI作曲家：[https://zhuanlan.zhihu.com/p/26464696](https://zhuanlan.zhihu.com/p/26464696 "深度学习小实验3：AI作曲家")
+1. 深度学习小实验1：[使用RNN教AI学会吟诗作赋](/example/poetry-generator.md)
+2. 深度学习小实验2：[名画风格学习](/example/style-transfer.md)
+3. 深度学习小实验3：[泰坦尼克号乘客分析](/example/titanic-analytic.md)
