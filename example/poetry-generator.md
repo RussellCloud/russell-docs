@@ -43,9 +43,6 @@ russell logs <run_id>
 #训练结束后通过info命令获取项目输出output_id
 russell info <run_id>
 
-#通过output命令在浏览器中查看或下载输出文件
-russell output <run_id>
-
 ```
 现在可以直接浏览输出的模型目录：[训练好的模型](http://russellcloud.com/RussellCloud/dataset/poetry_generator_model/versions)
 
