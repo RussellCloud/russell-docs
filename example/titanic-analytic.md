@@ -80,7 +80,7 @@ $ russell init --name Kaggle_Titanic
 $ echo "seaborn" >> russell_requirements.txt
 
 # 以jupyter模式启动，可能需要等待一小会，返回相应浏览器可访问的notebook链接
-russell run --mode jupyter --data <data_id>:data
+$ russell run --mode jupyter --data <data_id>:data
 ```
 
 成功启动Jupyter：
@@ -91,7 +91,7 @@ russell run --mode jupyter --data <data_id>:data
 jupyter模式下的任务不会自动关闭，使用stop命令主动结束，如下:
 ```bash
 # russell stop 关闭任务 <run_id>是运行成功后返回的标识ID
-russell stop <run_id>
+$ russell stop <run_id>
 ```
 
 ## 运行结果展示
