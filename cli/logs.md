@@ -1,41 +1,58 @@
 # russell logs
+
 查看任务的运行日志。
 
 ## 查看帮助
+
 ```bash
 russell logs --help
 ```
+
 输出：
+
 ```
 Usage: russell logs [OPTIONS] ID
 
   Print the logs of the run.
 
 Options:
-  -t, --tail  Stream the logs
-  --help      Show this message and exit.
+  -t, --tail int              output the last K lines, instead of all
+                              available logs; If -f/--follow options is
+                              provided, this option will be ignored
+  -f, --follow                output appended data as the file grows
+  -O, --output_document TEXT  Write documents to file
+  --help                      Show this message and exit.
 ```
 
 ## 命令
+
 ```bash
 russell logs [OPTIONS] ID
 ```
 
 ## 选项
 
-|选项|默认值|描述|
-|---|---|---|
-|ID||任务ID|
-|--url, -u||只打印URL|
+| 选项 | 默认值 | 描述 |
+| --- | --- | --- |
+| ID | None | 任务ID |
+| -t,--tail | None | 输出日志结尾的K行，如果指定了-f，本选项会被忽略，如果不指定本选项，默认获取当前日志已有的全部内容 |
+| -f,--follow | False | 堵塞读取日志，直到运行任务结束所有日志输出 |
+| -O,--output\_document | None | 如果指定了本参数，日志不会在控制台输出，二会下载到指定的路径 |
 
 ## 详情
+
 项目代码中任何标准输出和标准错误都会输出到日志中。如果需要查看实时日志，必须确保您的日志刷出缓冲区。命令输出日志中还包括一些RussellCloud服务器任务调度信息。
 
 示例：
+
+1. 默认情况，直接输出当前已有的所有日志：
+
 ```bash
-russell logs 5b5e9b106d754b74acbe87c8e9618265
+    russell logs 5b5e9b106d754b74acbe87c8e9618265
 ```
-输出：
+
+> 输出：
+
 ```
 [2017-11-23 13:46:55] [INFO] | Task submitted successfully, queued for processing
 [2017-11-23 13:46:55] [INFO] | Task start to be executed...
@@ -214,7 +231,94 @@ Testing Accuracy: 0.972656
 [2017-11-23 13:53:18] [INFO] | [stopped] Finishing execution in 375 seconds for Task
 ```
 
+2. 输出尾部K=10行:
+
+```
+russell logs 5b5e9b106d754b74acbe87c8e9618265 -t 10
+```
+
+> 输出：
+
+```
+[2017-11-23 13:46:55] [INFO] | Task submitted successfully, queued for processing
+[2017-11-23 13:46:55] [INFO] | Task start to be executed...
+[2017-11-23 13:46:55] [INFO] | default_env: keras:py2, image: registry.cn-shanghai.aliyuncs.com/russellcloud/tensorflow:latest-py2 .
+[2017-11-23 13:46:55] [INFO] | mkdir output
+[2017-11-23 13:46:55] [INFO] | work_volume create successfully, mount dir: /workspace
+[2017-11-27 12:36:02] [INFO] | Task is running now ~
+################################################################################
+Iter 190720, Minibatch Loss= 129.498077, Training Accuracy= 0.96875
+Iter 192000, Minibatch Loss= 274.199890, Training Accuracy= 0.96094
+Iter 193280, Minibatch Loss= 278.135132, Training Accuracy= 0.98438
+Iter 194560, Minibatch Loss= 10.363342, Training Accuracy= 0.98438
+Iter 195840, Minibatch Loss= 76.943817, Training Accuracy= 0.99219
+Iter 197120, Minibatch Loss= 110.401573, Training Accuracy= 0.98438
+Iter 198400, Minibatch Loss= 61.524139, Training Accuracy= 0.98438
+Iter 199680, Minibatch Loss= 0.000000, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 0.972656
+################################################################################
+[2017-11-23 13:53:18] [INFO] | [stopped] Finishing execution in 375 seconds for Task
+```
+
+3. 使用-f参数实时获取任务日志输出：
+
+```
+russell logs 5b5e9b106d754b74acbe87c8e9618265 -f
+```
+
+> 一个输出例子，此时控制台处于堵塞等待状态，正在等待日志服务器传输新的日志：
+
+```
+[2017-11-23 13:46:55] [INFO] | Task submitted successfully, queued for processing
+[2017-11-23 13:46:55] [INFO] | Task start to be executed...
+[2017-11-23 13:46:55] [INFO] | default_env: keras:py2, image: registry.cn-shanghai.aliyuncs.com/russellcloud/tensorflow:latest-py2 .
+[2017-11-23 13:46:55] [INFO] | mkdir output
+[2017-11-23 13:46:55] [INFO] | work_volume create successfully, mount dir: /workspace
+[2017-11-27 12:36:02] [INFO] | Task is running now ~
+################################################################################
+Iter 190720, Minibatch Loss= 129.498077, Training Accuracy= 0.96875
+Iter 192000, Minibatch Loss= 274.199890, Training Accuracy= 0.96094
+Iter 193280, Minibatch Loss= 278.135132, Training Accuracy= 0.98438
+Iter 194560, Minibatch Loss= 10.363342, Training Accuracy= 0.98438
+Iter 195840, Minibatch Loss= 76.943817, Training Accuracy= 0.99219
+Iter 197120, Minibatch Loss= 110.401573, Training Accuracy= 0.98438
+
+```
+
+4. 使用-O参数下载日志到本地：
+
+```
+russell logs 5b5e9b106d754b74acbe87c8e9618265 -O log.txt
+```
+
+> 输出：
+
+```
+Connecting to the server....
+HTTP request sent, awaiting response...
+Length: 20957418 Bytes 20.0MiB [application/octet-stream]
+Downloading from server. Saving to log.txt....
+[log.txt] Downloading... 20402.00 KB / 20466.00 KB 4.7MiB/s
+log.txt saved. Total size: [20.0MiB/20.0MiB]
+```
+
+## 输出限制
+
+目前控制台日志仅支持输出最大1024行日志，当超过1024行，控制台会输出以下信息：
+
+```
+--------------------------------------------------------------------------------
+The log exceeds 1024 rows. To view complete log:
+    1. In terminal, enter:
+             russell logs 6dc0e8e05a7a4841844e24ac91f4b8c1 -O log.txt
+    2. In browser,click the download button on the web page
+--------------------------------------------------------------------------------
+```
+
+如果需要查看完整日志，请使用 -O 命令下载到本地进行查看。
 
 ## 遇到更多问题？
 
 如果您在使用过程中，发现终端有一些“非正常”的输出，或者有其他的不愉快体验，请[联系我们](/contact-us.md)，帮助我们更好地改进产品、增强用户体验。
+

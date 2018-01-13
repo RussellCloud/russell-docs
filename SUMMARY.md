@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [快速开始](get-started/install.md)
   * [安装](get-started/install.md)
   * [第一个任务](get-started/first-task.md)
@@ -11,6 +12,7 @@
     * [任务模式](project/task/mode.md)
     * [环境配置](project/task/environment.md)
     * [终止任务](project/task/stop.md)
+    * [任务日志](project/task/logs.md)
   * [版本管理](project/version-control.md)
   * [删除项目](project/delete.md)
 * [数据集](dataset/create-and-upload.md)
@@ -23,6 +25,7 @@
   * [唐诗词生成](example/poetry-generator.md)
   * [泰坦尼克号乘客分析](example/titanic-analytic.md)
 * [命令行工具](cli/init.md)
+  * [login](cli/login.md)
   * [init](cli/init.md)
   * [run](cli/run.md)
   * [status](cli/status.md)
@@ -33,6 +36,7 @@
     * upload
     * status
     * output
+  * [clone](cli/clone.md)
 * [FAQs](faq/install.md)
   * [安装过程](faq/install.md)
   * [注册登录](faq/regist-and-login.md)
@@ -40,5 +44,4 @@
   * [任务运行](faq/run-task.md)
 * [联系我们](contact-us.md)
 * [关于我们](about-us.md)
-
 
