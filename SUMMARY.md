@@ -24,6 +24,7 @@
   * [唐诗词生成](example/poetry-generator.md)
   * [泰坦尼克号乘客分析](example/titanic-analytic.md)
 * [命令行工具](cli/init.md)
+  * [login](cli/login.md)
   * [init](cli/init.md)
   * [run](cli/run.md)
   * [status](cli/status.md)
@@ -34,7 +35,6 @@
     * upload
     * status
     * output
-  * [login](cli/login.md)
 * [FAQs](faq/install.md)
   * [安装过程](faq/install.md)
   * [注册登录](faq/regist-and-login.md)
