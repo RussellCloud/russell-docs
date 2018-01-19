@@ -7,7 +7,7 @@
 ---
 
 ### 项目：概念解读
-在 RussellCloud ，项目的概念与 *Github* 的 *Repository* （仓库）类似，在 版本仓库 的基础上加入了对 *任务* 的管理，同样的，你也可以查看甚至 [fork](/project/fork.,d) 其他用户的公开项目。
+在 RussellCloud ，项目的概念与 *Github* 的 *Repository* （仓库）类似，在 版本仓库 的基础上加入了对 *任务* 的管理，同样的，你也可以查看甚至 [fork](/project/fork.md) 其他用户的公开项目。
 
 ---
 
