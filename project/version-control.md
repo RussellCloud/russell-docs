@@ -12,6 +12,16 @@ RussellCloud在最开始设计的时候就加入了对版本控制的需求，�
 
 当前的客户端设计把项目的版本提交绑定在运行任务的过程中，即提交一个任务时，客户端将会根据配置上传当前项目目录下的文件并自动存入一个新的版本。（在未来的设计中，可能会将这个过程分离）
 
+在提交版本时，需要特别注意的是，我们会对要上传的文件大小做出限制，对于项目，当前最大上传大小为100M，对于数据集，最大上传大小为5G，超出上传的大小限制，客户端会提示：
+
+
+
+```
+Creating tar archive
+compressed size: 135394533 Bytes
+upload failed: Upload file size exceeds limit. Data upload max size is 5GB and project upload max size is 100MB.
+```
+
 <br />
 
 ## 如何查看某个版本的项目代码
