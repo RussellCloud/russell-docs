@@ -76,29 +76,29 @@ Authentication token page will now open in your browser. Continue? [Y/n]:
 * 使用--token选项:
 
 ```bash
-$ russell login --token
-Please copy and paste the token here:
-Login Successful as RussellCloud
+    $ russell login --token
+    Please copy and paste the token here:
+    Login Successful as RussellCloud
 ```
 
 * 同时使用-u/--username,-p/--password选项:
   ```
-  russell login -u RussellCloud -p my-password
-  Login Successful as RussellCloud 
+  $ russell login -u RussellCloud -p my-password
+  Login Successful as RussellCloud
   ```
 * 同时使用-u,-p会使密码在命令行明文出现，如果想以更安全的方式登陆，可以只使用-u/--username选项:
 
 ```
-    russell login -u RussellCloud
+    $ russell login -u RussellCloud
     Password:
     Login Successful as RussellCloud
 ```
 
-
-
 ## 认证token¶
 
-RussellCloud使用JWT认证。您的token将会被存储到~/.russellconfig文件中。默认的token有效期为 1 天，在此之后您需要重新登录。当使用用户名、密码的方式登陆时，会先通过用户校验取得token，再将token存储到~/.russellconfig文件中。token有效期同样为 1 天
+RussellCloud使用JWT认证。您的token将会被存储到~/.russellconfig文件中。默认的token有效期为 1 天，在此之后您需要重新登录。
+
+当使用用户名、密码的方式登陆时，会先通过用户校验取得token，再将token存储到~/.russellconfig文件中。token有效期同样为 1 天
 
 ## 遇到更多问题？
 
