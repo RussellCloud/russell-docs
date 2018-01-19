@@ -19,7 +19,7 @@
   * [新建并上传数据集](dataset/create-and-upload.md)
   * [删除数据集](dataset/delete.md)
   * [挂载数据集](dataset/mount.md)
-  * [输出数据集](dataset/output.md)
+  * [查看数据集](dataset/output.md)
 * [经典例子](example/style-transfer.md)
   * [名画风格学习](example/style-transfer.md)
   * [唐诗词生成](example/poetry-generator.md)
