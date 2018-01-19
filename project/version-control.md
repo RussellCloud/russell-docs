@@ -17,7 +17,9 @@ RussellCloud在最开始设计的时候就加入了对版本控制的需求，�
 ```
 Creating tar archive
 compressed size: 135394533 Bytes
-upload failed: Upload file size exceeds limit. Data upload max size is 5GB and project upload max size is 100MB.
+Code size too large to sync, please keep it under 100MB.
+If you have data files in the current directory, please upload them 
+separately using "russell data" command and remove them from here.
 ```
 
 
