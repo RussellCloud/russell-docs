@@ -26,4 +26,5 @@
   * [注册登录](faq/zhu-ce-deng-lu.md)
   * [环境配置](faq/huan-jing-pei-zhi.md)
   * 运行任务
+* [test](test.md)
 
