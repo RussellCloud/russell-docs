@@ -48,51 +48,49 @@ russell login
 
 1. 默认：
 
-```
+    ```
 Authentication token page will now open in your browser. Continue? [Y/n]:
-```
+    ```
 
 * 若输入Y并回车，或者直接回车：
 
-  ```
-  Please copy and paste the token here:
-  ```
+    ```
+Please copy and paste the token here:
+    ```
 
   粘贴token后，你可以看到类似如下输出，并退出回到交互式终端。
 
-  ```
-  Login Successful as RussellCloud
-  ```
+    ```
+Login Successful as RussellCloud
+    ```
 
 * 若输入n并回车：
-
-  ```
-  Login with your russell username/email and password. If you don't have a Russell account, head over to http://russellcloud.com to create one.
-  Username/Email:RussellCloud
-  Password:
-  Login Successful as RussellCloud
-  ```
+    ```
+Login with your russell username/email and password. If you don't have a Russell account, head over to http://russellcloud.com to create one.
+Username/Email:RussellCloud
+Password:
+Login Successful as RussellCloud
+    ```
 
 * 使用--token选项:
-
-```bash
-    $ russell login --token
-    Please copy and paste the token here:
-    Login Successful as RussellCloud
-```
+    ```bash
+$ russell login --token
+Please copy and paste the token here:
+Login Successful as RussellCloud
+    ```
 
 * 同时使用-u/--username,-p/--password选项:
-  ```
-  $ russell login -u RussellCloud -p my-password
-  Login Successful as RussellCloud
-  ```
-* 同时使用-u,-p会使密码在命令行明文出现，如果想以更安全的方式登陆，可以只使用-u/--username选项:
+    ```
+$ russell login -u RussellCloud -p my-password
+Login Successful as RussellCloud
+    ```
 
-```
-    $ russell login -u RussellCloud
-    Password:
-    Login Successful as RussellCloud
-```
+* 同时使用-u,-p会使密码在命令行明文出现，如果想以更安全的方式登陆，可以只使用-u/--username选项:
+    ```
+$ russell login -u RussellCloud
+Password:
+Login Successful as RussellCloud
+    ```
 
 ## 认证token¶
 
