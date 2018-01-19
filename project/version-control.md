@@ -22,20 +22,21 @@ compressed size: 135394533 Bytes
 upload failed: Upload file size exceeds limit. Data upload max size is 5GB and project upload max size is 100MB.
 ```
 
-<br />
 
 ## 如何查看某个版本的项目代码
 
 进入 项目-版本 ，选择一个版本，并点击右边的查看文件（只有当前版本状态是 valid 才会显示），即跳转文件浏览页面
+![](/asserts/img/version_control_1.gif)
 
-<img width=80% height=80% src="../asserts/img/version_control_1.gif"/>
 
-<br />
+## 如何给项目的某个版本添加备注
+在项目版本较多的情况下，为了便于以后我们回顾某个项目版本的变更，我们可以为项目的每个版本添加一个备注，具体操作步骤是进入 项目-版本 ，选择一个未备注过的版本，在备注一栏选择“添加备注”，在弹出备注输入框后，我们可以在里面键入备注信息，点击保存备注，即可完成备注操作。
+![](/asserts/img/version_remark.gif)
 
 
 ## 如何删除项目的某个版本
-
-暂时不支持
+进入 项目-版本 ，选择一个版本，并点击右边的删除版本图标，然后网页会弹出确认框，点击“立即删除”即可删除改项目版本。
+![](/asserts/img/version_delete.gif)
 
 
 
