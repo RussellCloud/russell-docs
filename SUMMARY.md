@@ -35,6 +35,7 @@
     * upload
     * status
     * output
+  * [clone](cli/clone.md)
 * [FAQs](faq/install.md)
   * [安装过程](faq/install.md)
   * [注册登录](faq/regist-and-login.md)
