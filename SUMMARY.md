@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [快速开始](get-started/install.md)
   * [安装](get-started/install.md)
   * [第一个任务](get-started/first-task.md)
@@ -33,6 +34,7 @@
     * upload
     * status
     * output
+  * [login](cli/login.md)
 * [FAQs](faq/install.md)
   * [安装过程](faq/install.md)
   * [注册登录](faq/regist-and-login.md)
@@ -40,5 +42,4 @@
   * [任务运行](faq/run-task.md)
 * [联系我们](contact-us.md)
 * [关于我们](about-us.md)
-
 
