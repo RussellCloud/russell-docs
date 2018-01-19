@@ -12,6 +12,7 @@
     * [任务模式](project/task/mode.md)
     * [环境配置](project/task/environment.md)
     * [终止任务](project/task/stop.md)
+    * [任务日志](project/task/ren-wu-ri-zhi.md)
   * [版本管理](project/version-control.md)
   * [删除项目](project/delete.md)
 * [数据集](dataset/create-and-upload.md)
