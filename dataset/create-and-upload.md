@@ -46,8 +46,8 @@ RussellCloud为个人用户提供数据云服务，用于管理、分享数据�
 >
 >```
 Creating tar archive
-compressed size: 135394533 Bytes
-upload failed: Upload file size exceeds limit. Data upload max size is 5GB and project upload max size is 100MB.
+compressed size: 6435394533 Bytes
+Total size: 6435394533 . Data size too large to sync, please keep it under 5GB.
 >```
 
 
