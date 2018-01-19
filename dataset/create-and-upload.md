@@ -42,7 +42,16 @@ RussellCloud为个人用户提供数据云服务，用于管理、分享数据�
 >
 > 每次上传标记为一个新的版本，对应一个版本ID, 在项目中可以按版本使用数据集。
 >
-> 当前系统对上传的数据集大小做出限制，只能上传小于5GB的数据集
+> 当前系统对上传的数据集大小做出限制，只能上传小于5GB的数据集,超出上传的大小限制，客户端会提示：
+>
+>```
+Creating tar archive
+compressed size: 135394533 Bytes
+upload failed: Upload file size exceeds limit. Data upload max size is 5GB and project upload max size is 100MB.
+>```
+
+
+
 
 * 打开数据集概览，粘贴数据集对应ID
 
