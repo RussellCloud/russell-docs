@@ -34,10 +34,10 @@
     * status
     * output
 * [账户管理](account.md)
-  * [计费说明](account/fee-scale.md)
   * [用量](account/use-quantity.md)
   * [钱包](account/purse.md)
   * [套餐](account/tariff-packages.md)
+  * [计费说明](account/fee-scale.md)
 * [FAQs](faq/install.md)
   * [安装过程](faq/install.md)
   * [注册登录](faq/regist-and-login.md)
