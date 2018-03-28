@@ -37,6 +37,12 @@
     * status
     * output
   * [clone](cli/clone.md)
+* [账户管理](account.md)
+  * [用量](account/use-quantity.md)
+  * [套餐](account/tariff-packages.md)
+  * [钱包](account/purse.md)
+  * [计费说明](account/fee-scale.md)
+  * [开取发票](account/invoice.md)
 * [FAQs](faq/install.md)
   * [安装过程](faq/install.md)
   * [注册登录](faq/regist-and-login.md)
