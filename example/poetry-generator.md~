@@ -1,0 +1,67 @@
+## 使用 RNN 生成唐诗
+这一小节中我们将会在 Russell Cloud 上示范如何用 RNN 生成唐诗（poetry_generator）。
+
+您将在个例子中学会：
+- 如何使用预训练的模型。
+
+---
+### 复现过程：
+
+前提：
+* 使用邀请码在官网进行注册
+* [在本地安装 cli 客户端](/get-started/install.md)
+* 在 cli 客户端通过 login 登录
+
+第一步：项目准备
+#### 在官网创建项目
+点击[项目创建页]创建名为`poetry_generator`的项目，默认环境选：`keras` (注意不要选 kera:py2 )
+
+
+#### 绑定本地项目
+
+```
+#clone项目代码
+git clone https://github.com/RussellCloud/poetry_generator.git
+
+#进入项目目录
+cd poetry_generator
+
+#创建项目
+russell init --name poetry_generator
+```
+
+第二步：训练模型（可跳过，直接使用在下一步使用预先训练好的 model）
+
+```
+#运行模型训练代码并引用数据云上已经准备好的数据集
+russell run "python trainer.py" --data ee3da33467b04b4680ab31f523aeea6f:data
+
+#查看训练日志
+russell logs <run_id> 
+
+#由于封测期间暂未采用GPU机器，因此训练需要一个晚上的时间
+#训练结束后通过info命令获取项目输出output_id
+russell info <run_id>
+
+#通过output命令在浏览器中查看或下载输出文件
+russell output <run_id>
+
+```
+现在可以直接浏览输出的模型目录：[训练好的模型](http://russellcloud.com/RussellCloud/dataset/poetry_generator_model/versions)
+
+
+第三步：使用预训练模型生成诗词
+
+```
+# 运行诗词生成代码并引用上一步中生成的模型数据
+# <output_id>是上一步训练过程中通过info命令获取到的id
+# 如跳过上一步，可直接使用预先训练好model的数据集：f030014be22b4965987d5b45f7093711
+
+russell run "python gen_poetry.py" --data f030014be22b4965987d5b45f7093711:model
+
+#从日志中查看生成的诗词
+russell logs <run_id_2>
+
+#顺利结束
+```
+
