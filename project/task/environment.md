@@ -54,4 +54,4 @@ russell run --env <env_name> <command>
 h5py, iPython, Jupyter, matplotlib, numpy, OpenCV, Pandas, Pillow, scikit-learn, scipy, sklearn
 ```
 
-如果需要安装额外的 python 库，可以在项目根目录下新建 `russell\_requirements.txt` 文件（内部格式参考 python 项目中常见 `requirements` 文件的编写方式），项目运行前会在环境中自动安装需要的库，但建议不要在这个过程中安装过多的库，有可能会造成安装超时，在 `jupyter` 任务中可以考虑启动 notebook 后再进行安装。
+如果需要安装额外的 python 库，可以在项目根目录下新建 `russell_requirements.txt` 文件（内部格式参考 python 项目中常见 `requirements` 文件的编写方式），项目运行前会在环境中自动安装需要的库，但建议不要在这个过程中安装过多的库，有可能会造成安装超时，在 `jupyter` 任务中可以考虑启动 notebook 后再进行安装。
