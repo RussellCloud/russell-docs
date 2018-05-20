@@ -4,6 +4,7 @@
 * [快速开始](get-started/install.md)
   * [安装](get-started/install.md)
   * [第一个任务](get-started/first-task.md)
+  * [五大核心概念](get-started/core-concepts.md)
 * [项目](project/create.md)
   * [新建项目](project/create.md)
   * [Fork项目](project/fork.md)
