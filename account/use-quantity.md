@@ -49,3 +49,9 @@
 用量使用时会优先使用套餐来源的用量，套餐使用完后使用用量包的用量。如果用量使用完后，任务仍在运行，则会使用账户的余额。余额为0后，任务将会终止。
 
 Tips：余额运行时计费为CPU1元/小时，GPU为8元/小时，订购用量包比余额更优惠。
+
+## 帮助我们完善文档
+这篇文档以及剩下的文档，我们都有同步在 [GitHub](https://github.com/RussellCloud/russell-docs) 上。团队在尽力完善文档，但疏漏和不周难免存在。若你有什么新的想法或体验，欢迎 Pull Request，扩大你的影响力。
+
+- 除此之外，你还可以通过 [issue](https://github.com/RussellCloud/russell-docs/issues/new?body=This%20issue%20is%20about%20<) 直接提交问题。
+- 或者，在[这里](/faq/run-task.md)查看常见问题。
