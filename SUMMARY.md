@@ -25,6 +25,12 @@
   * [名画风格学习](example/style-transfer.md)
   * [唐诗词生成](example/poetry-generator.md)
   * [泰坦尼克号乘客分析](example/titanic-analytic.md)
+* [账户管理](account.md)
+  * [用量](account/use-quantity.md)
+  * [套餐](account/tariff-packages.md)
+  * [钱包](account/purse.md)
+  * [计费说明](account/fee-scale.md)
+  * [开取发票](account/invoice.md)
 * [命令行工具](cli/init.md)
   * [login](cli/login.md)
   * [init](cli/init.md)
@@ -35,22 +41,9 @@
   * [data](cli/data.md)
     * init
     * upload
-* [联系我们](lian-xi-wo-men.md)
-* [FAQs](faq.md)
-  * [安装过程](faq/an-zhuang-guo-cheng.md)
-  * [注册登录](faq/zhu-ce-deng-lu.md)
-  * [环境配置](faq/huan-jing-pei-zhi.md)
-  * 运行任务
-* [test](test.md)
     * status
     * output
   * [clone](cli/clone.md)
-* [账户管理](account.md)
-  * [用量](account/use-quantity.md)
-  * [套餐](account/tariff-packages.md)
-  * [钱包](account/purse.md)
-  * [计费说明](account/fee-scale.md)
-  * [开取发票](account/invoice.md)
 * [FAQs](faq/install.md)
   * [安装过程](faq/install.md)
   * [注册登录](faq/regist-and-login.md)
