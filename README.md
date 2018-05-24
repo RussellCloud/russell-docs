@@ -8,8 +8,8 @@ RussellCloud 是一款为提升深度学习算法开发、部署效率而打造�
 
 
 ## 入门使用
-- 在使用前请先确认你已经注册账号，并按照注册后的 [快速开始](http://russellcloud.com/welcome) 引导安装客户端并登录，
-- 然后你可以通过 [第一个任务](http://docs.russellcloud.com/get-started/first-task.html) 创建自己的第一个项目并运行一个简单的任务（有日志，没有output），
+- 在使用前请先确认你已经注册账号，并按照注册后的 [快速开始](http://russellcloud.com/welcome) 引导安装客户端并登录
+- 然后你可以通过 [第一个任务](http://docs.russellcloud.com/get-started/first-task.html) 创建自己的第一个项目并运行一个简单的任务（有日志，没有output）
 - 如果你在使用中遇到任何疑问在文档中没有找到答案，欢迎访问 [Russell论坛](http://forum.russellcloud.com/) 交流或通过邮件 contact@russellcloud.cn 联系我们
 
 
