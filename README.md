@@ -14,8 +14,10 @@ RussellCloud 是一款为提升深度学习算法开发、部署效率而打造�
 
 
 ## CLI操作手册
+<a href="https://pan.baidu.com/s/1NkgVR43YFzPOpGpEmUKUGw" target="_blank">点击下载PDF</a>
 
 ![](/asserts/img/cheatsheet.png)
+
 
 
 
