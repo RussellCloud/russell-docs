@@ -36,6 +36,13 @@
   * [data](cli/data.md)
     * init
     * upload
+* [联系我们](lian-xi-wo-men.md)
+* [FAQs](faq.md)
+  * [安装过程](faq/an-zhuang-guo-cheng.md)
+  * [注册登录](faq/zhu-ce-deng-lu.md)
+  * [环境配置](faq/huan-jing-pei-zhi.md)
+  * 运行任务
+* [test](test.md)
     * status
     * output
   * [clone](cli/clone.md)
@@ -52,4 +59,3 @@
   * [任务运行](faq/run-task.md)
 * [联系我们](contact-us.md)
 * [关于我们](about-us.md)
-
