@@ -102,3 +102,8 @@ $ russell stop <run_id>
 预测结果：
 
 ![](/asserts/img/kaggle-titanic-result2.png)
+
+
+---
+
+{% include "/contributing.md" %}

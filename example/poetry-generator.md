@@ -100,3 +100,7 @@ $ russell logs <run_id>
 运行结果：
 
 ![](/asserts/img/poetry-generator-result.png)
+
+---
+
+{% include "/contributing.md" %}

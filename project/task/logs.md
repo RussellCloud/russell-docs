@@ -23,3 +23,6 @@
 
 ![](/asserts/img/task_log_download.png)
 
+---
+
+{% include "/contributing.md" %}

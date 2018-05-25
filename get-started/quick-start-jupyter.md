@@ -62,5 +62,4 @@ RUN ID                            NAME                         VERSION
 
 ---
 
-{% include "../help-us.md" %}
-
+{% include "/contributing.md" %}

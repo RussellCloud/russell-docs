@@ -92,3 +92,7 @@ $ russell run "bash stylize_image.sh ./image_input/lion.jpg ./styles/kandinsky.j
 ![](/asserts/img/style-transfer-result.jpg)
 
 然后右键将我们的图片另存到我们想要的位置。
+
+---
+
+{% include "/contributing.md" %}

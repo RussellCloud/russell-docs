@@ -27,3 +27,7 @@ RussellCloud 是一款为提升深度学习算法开发、部署效率而打造�
 1. 深度学习小实验1：[使用RNN教AI学会吟诗作赋](/example/poetry-generator.md)
 2. 深度学习小实验2：[名画风格学习](/example/style-transfer.md)
 3. 深度学习小实验3：[泰坦尼克号乘客分析](/example/titanic-analytic.md)
+
+---
+
+{% include "/contributing.md" %}

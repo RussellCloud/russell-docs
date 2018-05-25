@@ -69,3 +69,6 @@ RussellCloud 有许多不同的深度学习环境可供选择。在 RussellCloud
 
 在 RussellCloud 上保存和重新使用输出对于习惯于在自己的机器上工作的用户来说可能会感觉陌生。但是一旦你学会了如何去做，它变得非常简单，并且是 RussellCloud 工作流程中最有价值的部分之一。
 
+---
+
+{% include "/contributing.md" %}

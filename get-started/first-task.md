@@ -90,22 +90,5 @@ russell logs <task_id>
 
 ---
 
-<!-- 我认为下面这段话会干扰用户，在接触初期，不应该打过多“预防针”。
 
-## 常见问题
-
-1. 执行 *run* 时输出 *“Error: Task is submitted failed. Please retry after a while”*
-
-回答：大部分情况下没有问题，过几秒重新 *run* 就行了，如果重复几次仍然出现问题，仍未解决可 [联系我们](/contact-us.md) 。
-
-2. 执行 *logs* 时偶尔会中途断开，是不是任务挂掉了？
-
-回答：当前设计的实时log服务与实际运行的任务是完全分离的，如果任务日志 10s 内没有新数据，实时log就会自动断开，避免不必要的资源浪费，你可以重新运行 *logs* 继续获取日志。 
-
-
-### 更多问题？
-如果遇到更多的问题，请参考 [运行过程常见问题](/faq/run-task.md) 进行排查，仍未解决可 [联系我们](/contact-us.md) 。
--->
-
-{% include "../help-us.md" %}
-
+{% include "/contributing.md" %}
