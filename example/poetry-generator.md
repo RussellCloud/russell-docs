@@ -54,11 +54,11 @@ $ russell init --id XXX
 
 ### 启动训练模型任务
 
-使用 russell run 命令启动一个任务训练我们的唐诗生成模型。这里我们需要挂载一个唐诗的数据集到`/input/data`下，所以我们指定挂载名为`data`。唐诗数据集的 ID 为：ee3da33467b04b4680ab31f523aeea6f。
+使用 russell run 命令启动一个任务训练我们的唐诗生成模型。这里我们需要挂载一个唐诗的数据集到`/input/data`下，所以我们指定挂载名为`data`。唐诗数据集的 ID 为：9367c30367eb4ce0bd90194845a6d398。
 
 ```bash
 # 运行模型训练代码并引用数据云上已经准备好的数据集
-$ russell run "python trainer.py" --data ee3da33467b04b4680ab31f523aeea6f:data --gpu
+$ russell run "python trainer.py" --data 5fe66bcefd2548adb1b1b81271339aff:data --gpu
 # 如果未使用GPU机器，则训练需要一个晚上的时间，使用--gpu参数可以使用GPU机器，将训练缩短到三十分钟
 ```
 
