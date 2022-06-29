@@ -1,7 +1,7 @@
 # 第一个任务
 基于 *tensorflow* 框架的 CNN 手写数字识别
 
-在本小节，我们将介绍如何使用 Russell Cloud，创建你的第一个深度学习任务。
+在本小节，我们将介绍如何使用 Russell Cloud，创建你的第一个深度学习项目。
 
 我们使用的代码来自 Github：[RussellCloud/TensorFlow-Examples](https://github.com/RussellCloud/TensorFlow-Examples)。数据集MNIST在代码中自动完成下载。
 
